@@ -44,7 +44,7 @@ public class JhonMove : MonoBehaviour
         
         }else Grounded = false;
         
-        if (Input.GetKeyDown(KeyCode.W)&& Grounded) {
+        if (Input.GetKey(KeyCode.W)&& Grounded) {
 
             Jump();
         

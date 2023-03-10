@@ -807,8 +807,9 @@ GameObject:
   - component: {fileID: 432800819}
   - component: {fileID: 432800822}
   - component: {fileID: 432800821}
-  - component: {fileID: 432800823}
   - component: {fileID: 432800824}
+  - component: {fileID: 432800825}
+  - component: {fileID: 432800826}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Player
@@ -876,8 +877,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432800818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.314, y: -1.6546, z: 0}
-  m_LocalScale: {x: 1.0048773, y: 1.1000235, z: 1}
+  m_LocalPosition: {x: -5.356, y: -1.6594, z: 0}
+  m_LocalScale: {x: 0.9198972, y: 1.0871388, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -920,21 +921,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &432800823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 432800818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92ee2a10c1023394ea2d5471753f9d5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 6734590923294565578, guid: 82e09673a7ef2b04fb88c2f747e7e417, type: 3}
-  Speed: 1
-  JumpForce: 150
 --- !u!95 &432800824
 Animator:
   serializedVersion: 4
@@ -955,6 +941,38 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &432800825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432800818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5637f92803be7c541bfd549c0a04284c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2.5
+--- !u!114 &432800826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432800818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9038f9e6c788514ca30a084573e62f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  jumpForce: 5
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  groundCheck: {fileID: 2088964902}
+  groundCheckRadius: 0.2
 --- !u!1 &434009401
 GameObject:
   m_ObjectHideFlags: 0
