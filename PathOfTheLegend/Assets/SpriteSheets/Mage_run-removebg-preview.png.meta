@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c102f2415f692794db63811d7d57fcac
+guid: 27c3af95a42711343892deb2e7c951ce
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mi proyecto (1)_0
+      name: Mage_run-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 101
-        height: 141
+        x: 5
+        y: 9
+        width: 150
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46e8133bc87ee9d4587b5d9beaa15485
-      internalID: 568720951
+      spriteID: f1ef4e966372a284590161be84c8b15d
+      internalID: 116515884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mi proyecto (1)_1
+      name: Mage_run-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 104
-        y: 0
-        width: 101
-        height: 141
+        x: 161
+        y: 15
+        width: 150
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1183b61ffb0b3ba47bee0f297089794e
-      internalID: 1166017518
+      spriteID: 55db6333dc20f79409ac3bb5f6ec3c64
+      internalID: -848098397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mi proyecto (1)_2
+      name: Mage_run-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 210
-        y: 0
-        width: 101
-        height: 141
+        x: 318
+        y: 12
+        width: 144
+        height: 124
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eb2b7c3e84e53a458487c2b11fefebc
-      internalID: -1027931467
+      spriteID: 3cb191c828571ec46a65a119bd56356f
+      internalID: -1254883456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mi proyecto (1)_3
+      name: Mage_run-removebg-preview_3
       rect:
         serializedVersion: 2
-        x: 314
-        y: 0
-        width: 101
-        height: 141
+        x: 469
+        y: 9
+        width: 150
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +205,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfd06fdca4a45744486f6de56c0835b9
-      internalID: 1366923793
+      spriteID: 908195e605522144fb34aa01f346d5b0
+      internalID: -3139079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mage_run-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 12
+        width: 150
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e0a0d981193984aabfc5361c1797bb
+      internalID: 1847792170
       vertices: []
       indices: 
       edges: []
@@ -222,10 +243,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mi proyecto (1)_2: -1027931467
-      Mi proyecto (1)_3: 1366923793
-      Mi proyecto (1)_0: 568720951
-      Mi proyecto (1)_1: 1166017518
+      Mage_run-removebg-preview_1: -848098397
+      Mage_run-removebg-preview_3: -3139079
+      Mage_run-removebg-preview_4: 1847792170
+      Mage_run-removebg-preview_0: 116515884
+      Mage_run-removebg-preview_2: -1254883456
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

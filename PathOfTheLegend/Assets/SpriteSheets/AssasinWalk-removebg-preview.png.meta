@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c102f2415f692794db63811d7d57fcac
+guid: 0f10f471bc0989040882689d83a5b3d1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mi proyecto (1)_0
+      name: AssasinWalk-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 101
-        height: 141
+        x: 4
+        y: 4
+        width: 55
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46e8133bc87ee9d4587b5d9beaa15485
-      internalID: 568720951
+      spriteID: 4f04e110680178341bc4e4b170cdad7e
+      internalID: 1945750216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mi proyecto (1)_1
+      name: AssasinWalk-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 104
-        y: 0
-        width: 101
-        height: 141
+        x: 61
+        y: 4
+        width: 57
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1183b61ffb0b3ba47bee0f297089794e
-      internalID: 1166017518
+      spriteID: 2017efc414ea5d04197dec5ff0568aeb
+      internalID: 2114954553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mi proyecto (1)_2
+      name: AssasinWalk-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 210
-        y: 0
-        width: 101
-        height: 141
+        x: 120
+        y: 3
+        width: 56
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eb2b7c3e84e53a458487c2b11fefebc
-      internalID: -1027931467
+      spriteID: a8bb0859578081e4c953691762c9bc56
+      internalID: 1819741069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mi proyecto (1)_3
+      name: AssasinWalk-removebg-preview_3
       rect:
         serializedVersion: 2
-        x: 314
-        y: 0
-        width: 101
-        height: 141
+        x: 178
+        y: 4
+        width: 54
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +205,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfd06fdca4a45744486f6de56c0835b9
-      internalID: 1366923793
+      spriteID: 8401f25e0828cdb459aa7a5744252739
+      internalID: 1307647549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssasinWalk-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 2
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0934361a88584de44baaae8c5e7e3a39
+      internalID: -2135756999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssasinWalk-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 3
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037937157891db74a8baf59b9586b8a7
+      internalID: -1465864108
       vertices: []
       indices: 
       edges: []
@@ -222,10 +264,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mi proyecto (1)_2: -1027931467
-      Mi proyecto (1)_3: 1366923793
-      Mi proyecto (1)_0: 568720951
-      Mi proyecto (1)_1: 1166017518
+      AssasinWalk-removebg-preview_0: 1945750216
+      AssasinWalk-removebg-preview_3: 1307647549
+      AssasinWalk-removebg-preview_4: -2135756999
+      AssasinWalk-removebg-preview_5: -1465864108
+      AssasinWalk-removebg-preview_2: 1819741069
+      AssasinWalk-removebg-preview_1: 2114954553
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
