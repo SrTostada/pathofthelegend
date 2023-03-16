@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Menu Caballero.unity
+    guid: 60198553800937d4a969f3b66b559113
+  - enabled: 1
+    path: Assets/Scenes/SP.unity
+    guid: 75d0dea2b2f588643be5da94bbb504c6
   m_configObjects: {}
