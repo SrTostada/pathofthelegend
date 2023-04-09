@@ -9,6 +9,7 @@ public class Movev2 : MonoBehaviour
     private Rigidbody2D Rigidbody2D;
     private Animator Animator;
     private float Horizontal;
+    private float Vertical; 
     private float HorizontalD;
     private bool Grounded;
     void Start()
@@ -22,11 +23,13 @@ public class Movev2 : MonoBehaviour
     {
         Horizontal = Input.GetAxisRaw("Horizontal");
         HorizontalD = Input.GetAxisRaw("Horizontal");
+        Vertical = Input.GetAxisRaw("Vertical");
 
         if (HorizontalD < 0.0f) transform.localScale = new Vector3(-1.2332f, 1.3883f, 1.0000f);
         else if (HorizontalD > 0.0f) transform.localScale = new Vector3(1.2332f, 1.3883f, 1.0000f);
 
         Animator.SetBool("running", Horizontal != 0.0f);
+        Animator.SetBool("jump", Vertical > 0.0f);
 
         Debug.DrawRay(transform.position, Vector3.down * 1000000f, Color.red);
         if (Physics2D.Raycast(transform.position, Vector3.down, 1f))
