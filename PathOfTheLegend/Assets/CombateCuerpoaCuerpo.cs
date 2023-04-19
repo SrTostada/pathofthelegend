@@ -10,11 +10,11 @@ public class CombateCuerpoaCuerpo : MonoBehaviour
 
     [SerializeField] private float radioGolpe;
 
-    [SerializeField] private float dañoGolpe;
+    [SerializeField] public float dañoGolpe;
 
     [SerializeField] private float radioGolpeEspecial;
 
-    [SerializeField] private float dañoGolpeEspecial;
+    [SerializeField] public float dañoGolpeEspecial;
 
     [SerializeField] private float tiempoEntreAtaques;
 
@@ -64,14 +64,14 @@ public class CombateCuerpoaCuerpo : MonoBehaviour
 
         Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorGolpe.position, radioGolpe);
 
-       /* foreach (Collider2D colisionador in objetos) {
+        foreach (Collider2D colisionador in objetos) {
 
-            if (colisionador.CompareTag("Enemigo")) {
+            if (colisionador.CompareTag("Enemy")) {
 
-                colisionador.transform.GetComponent<Enemigo>().TomarDaño(dañoGolpe);
+                colisionador.transform.GetComponent<GruntScript>().TomarDaño(dañoGolpe);
             }
 
-        }*/
+        }
 
     }
 
@@ -83,14 +83,14 @@ public class CombateCuerpoaCuerpo : MonoBehaviour
 
         Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorGolpeEspecial.position, radioGolpeEspecial);
 
-        /* foreach (Collider2D colisionador in objetos) {
+         foreach (Collider2D colisionador in objetos) {
 
-             if (colisionador.CompareTag("Enemigo")) {
+             if (colisionador.CompareTag("Enemy")) {
 
-                 colisionador.transform.GetComponent<Enemigo>().TomarDaño(dañoGolpe);
+                 colisionador.transform.GetComponent<GruntScript>().TomarDaño(dañoGolpeEspecial);
              }
 
-         }*/
+         }
 
     }
 

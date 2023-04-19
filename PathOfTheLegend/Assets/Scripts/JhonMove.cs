@@ -101,13 +101,15 @@ public class JhonMove : MonoBehaviour
 
         Health = Health - 1;
         if (Health == 0) Destroy(gameObject);
-    
+        Debug.Log("Te queda " + Health + " puntos de salud.");
+
     }
 
     public void Heal(){
 
         Health = Health + 1;
-        if (Health == 0) Destroy(gameObject);
+       
+        
 
     }
 

@@ -30,4 +30,18 @@ public class BulletScript : MonoBehaviour
 
     }
 
+
+    private void OnCollisionEnter2D(Collision2D collision) {
+
+        Movev2 jhon = collision.collider.GetComponent<Movev2>();
+
+        if (jhon != null) {
+            jhon.Hit();
+        
+        }
+
+           DestroyBullet();
+        
+    }
+
 }
