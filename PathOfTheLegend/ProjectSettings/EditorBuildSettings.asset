@@ -23,13 +23,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NivA.unity
     guid: a47dfed8050eda141befe33ebca795e8
-  - enabled: 1
-    path: Assets/Scenes/NivN.unity
-    guid: abc79287c8ef7944fab1c2b744187102
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Assasin.unity
     guid: ec7775d814c7dd5439bf838ed288f138
   - enabled: 1
     path: Assets/Scenes/Mage.unity
     guid: 9a8b15672f7ec4c4081c5323bcc6de08
+  - enabled: 1
+    path: Assets/Scenes/MenA.unity
+    guid: 5a3a5b17eb8c31049b28b29a156143f6
+  - enabled: 1
+    path: Assets/Scenes/KnightLV2.unity
+    guid: 2cf99c3e660a8564aac73935e759331e
   m_configObjects: {}
