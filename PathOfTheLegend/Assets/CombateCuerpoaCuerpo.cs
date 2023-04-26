@@ -24,6 +24,10 @@ public class CombateCuerpoaCuerpo : MonoBehaviour
 
     [SerializeField] private float tiempoSiguienteAtaqueEspecial;
 
+    [SerializeField] private AudioSource Ataque1Asesino;
+    [SerializeField] private AudioSource Ataque2Asesino;
+
+
 
     private Animator animator;
 
@@ -49,11 +53,13 @@ public class CombateCuerpoaCuerpo : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.K) && tiempoSiguienteAtaque <= 0)
         {
             Golpe();
+            Ataque1Asesino.Play();
             tiempoSiguienteAtaque = tiempoEntreAtaques;
         }
         if (Input.GetKeyDown(KeyCode.L) && tiempoSiguienteAtaqueEspecial <= 0)
         {
             GolpeEspecial();
+            Ataque2Asesino.Play();
             tiempoSiguienteAtaqueEspecial = tiempoEntreAtaquesEspeciales;
         }
     }

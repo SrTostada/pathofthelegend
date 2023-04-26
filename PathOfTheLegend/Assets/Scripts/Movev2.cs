@@ -14,14 +14,21 @@ public class Movev2 : MonoBehaviour
     private bool Grounded;
     public int Health = 5;
     private int Lives = 3; // variable para almacenar el número de vidas disponibles
-    private Vector3 InitialPosition; // variable para guardar la posición inicial del personaje
+    public Vector3 InitialPosition; // variable para guardar la posición inicial del personaje
+    [SerializeField] private AudioSource SaltoAsesino;
+    [SerializeField] private AudioSource Respawn;
 
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         Animator = GetComponent<Animator>();
         InitialPosition = transform.position; // guardar la posición inicial
-        
+
+        if (gameObject.CompareTag("Caballero"))
+        {
+            InvokeRepeating("PasivaCaballero", 15f, 15f); // invocar la función PasivaCaballero cada 15 segundos
+        }
+
     }
     
 
@@ -56,6 +63,7 @@ public class Movev2 : MonoBehaviour
     private void Jump()
     {
         Rigidbody2D.AddForce(Vector2.up * JumpForce);
+        SaltoAsesino.Play();
     }
 
     private void FixedUpdate()
@@ -76,7 +84,8 @@ public class Movev2 : MonoBehaviour
                 Lives--;
                 Health = 5;
                 Debug.Log("Te quedan " + Lives + " vidas.");
-                transform.position = InitialPosition; // establecer la posición del personaje como la posición inicial
+                transform.position = InitialPosition;// establecer la posición del personaje como la posición inicial
+                Respawn.Play();
             }
             else
             { // Si el personaje no tiene más vidas, se destruye
@@ -88,5 +97,12 @@ public class Movev2 : MonoBehaviour
     public void PasivaAsesino() {
         Health = Health + 1;
         Debug.Log("Te has curado un punto de vida, tu vida es " + Health);
+    }
+
+    public void PasivaCaballero()
+    {
+        Health = Health + 5;
+        Debug.Log("Has descansado, recuperaste 5 punto de vida. Tu vida es " + Health);
+
     }
 }
