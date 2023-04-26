@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/KnightLV3.unity
     guid: d5155b0d0e199a548839d9ae5b8ab59d
+  - enabled: 1
+    path: Assets/Scenes/AssasinLV3.unity
+    guid: 4677f95141b7b4749ae813bbfc9f68c4
   m_configObjects: {}
