@@ -13,7 +13,7 @@ public class Movev2 : MonoBehaviour
     private float HorizontalD;
     private bool Grounded;
     public int Health = 5;
-    private int Lives = 3; // variable para almacenar el número de vidas disponibles
+    public int Lives = 3; // variable para almacenar el número de vidas disponibles
     public Vector3 InitialPosition; // variable para guardar la posición inicial del personaje
     [SerializeField] private AudioSource SaltoAsesino;
     [SerializeField] private AudioSource Respawn;
@@ -101,7 +101,7 @@ public class Movev2 : MonoBehaviour
 
     public void PasivaCaballero()
     {
-        Health = Health + 5;
+        Health = Health + 3;
         Debug.Log("Has descansado, recuperaste 5 punto de vida. Tu vida es " + Health);
 
     }
