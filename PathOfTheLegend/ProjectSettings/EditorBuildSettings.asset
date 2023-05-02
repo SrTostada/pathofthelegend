@@ -53,4 +53,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NivN.unity
     guid: 9e99d96218cb14d46a255d365adc794b
+  - enabled: 1
+    path: Assets/Scenes/HistoriaK.unity
+    guid: 8686c69146ef36b4a8ec0bdfc2fafa61
+  - enabled: 1
+    path: Assets/Scenes/HistoriaA.unity
+    guid: 25967d6979b3dc44fa8745d8fdf03dda
+  - enabled: 1
+    path: Assets/Scenes/HistoriaN.unity
+    guid: 0a9ce0f8766fd984390582c7a0674ebc
   m_configObjects: {}
