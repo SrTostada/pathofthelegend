@@ -95,14 +95,21 @@ public class Movev2 : MonoBehaviour
     }
 
     public void PasivaAsesino() {
-        Health = Health + 1;
-        Debug.Log("Te has curado un punto de vida, tu vida es " + Health);
+        Health = Health + 5;
+        Debug.Log("Has tomado otra vida, te has curado 5 puntos de vida, tu vida es " + Health);
     }
 
     public void PasivaCaballero()
     {
         Health = Health + 3;
-        Debug.Log("Has descansado, recuperaste 5 punto de vida. Tu vida es " + Health);
+        Debug.Log("Has descansado, recuperaste 3 puntos de vida. Tu vida es " + Health);
+
+    }
+
+    public void PasivaMago()
+    {
+        Health = Health + 2;
+        Debug.Log("Has conseguido conocimiento, recuperaste 2 puntos de vida. Tu vida es " + Health);
 
     }
 }

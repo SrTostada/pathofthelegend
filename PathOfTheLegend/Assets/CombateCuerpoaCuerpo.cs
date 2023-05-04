@@ -27,6 +27,9 @@ public class CombateCuerpoaCuerpo : MonoBehaviour
     [SerializeField] private AudioSource Ataque1Asesino;
     [SerializeField] private AudioSource Ataque2Asesino;
 
+    [SerializeField] public float contadorGolpe=0;
+
+
 
 
     private Animator animator;
@@ -55,12 +58,33 @@ public class CombateCuerpoaCuerpo : MonoBehaviour
             Golpe();
             Ataque1Asesino.Play();
             tiempoSiguienteAtaque = tiempoEntreAtaques;
+            contadorGolpe = contadorGolpe + 1;
+            if (contadorGolpe >= 5)
+            {
+                GameObject player = GameObject.FindWithTag("Mago");
+                if (player != null)
+                {
+                    player.SendMessage("PasivaMago");
+                }
+                contadorGolpe = 0;
+            }
         }
         if (Input.GetKeyDown(KeyCode.L) && tiempoSiguienteAtaqueEspecial <= 0)
         {
             GolpeEspecial();
             Ataque2Asesino.Play();
             tiempoSiguienteAtaqueEspecial = tiempoEntreAtaquesEspeciales;
+            contadorGolpe = contadorGolpe + 3;
+            
+            if (contadorGolpe >= 5)
+            {
+                GameObject player = GameObject.FindWithTag("Mago");
+                if (player != null)
+                {
+                    player.SendMessage("PasivaMago");
+                }
+                contadorGolpe = 0;
+            }
         }
     }
 
@@ -108,4 +132,6 @@ public class CombateCuerpoaCuerpo : MonoBehaviour
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(controladorGolpeEspecial.position, radioGolpeEspecial);
     }
+
+    
 }
