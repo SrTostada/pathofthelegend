@@ -52596,7 +52596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fefb0e14832dfb47b71a265647d0184, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: KnightLV4
+  nextLevel: Final Caballero
 --- !u!61 &1956429293
 BoxCollider2D:
   m_ObjectHideFlags: 0
